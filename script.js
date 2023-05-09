@@ -30,3 +30,4 @@ const appendButton = (label = "No label") => {
 
     document.querySelector('#display').append(el)
 }
+
