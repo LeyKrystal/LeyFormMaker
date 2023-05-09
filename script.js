@@ -31,3 +31,10 @@ const appendButton = (label = "No label") => {
     document.querySelector('#display').append(el)
 }
 
+deleteButton.addEventListener('click', () => {
+    deleteContainer(container);
+});
+
+function deleteContainer(container) {
+    container.remove();
+}
